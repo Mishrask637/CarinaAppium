@@ -1,0 +1,191 @@
+<html>
+<head>
+<title>TestNG:  Carina Appium POC</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Carina Appium POC</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Jun 03 11:48:04 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>319 seconds (319750 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.demo.tests.PersonalLoanFlow.personalLoanEarlySalary1ToastMessage()'><b>personalLoanEarlySalary1ToastMessage</b><br>Test class: com.demo.tests.PersonalLoanFlow<br>Test method: Capture Toast Message<br>Parameters: 75000, 12, 35000, 31-12-1990, 40000, No, Please enter valid number<br/>
+<a href="#Output-487315211" onClick='toggleBox("Output-487315211", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-487315211" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-487315211">
+Personal Loan - Early Salary Test Started...<br/>
+Home Screen Started...<br/>
+Assert - Borrow Verified<br/>
+Home Screen Finished...<br/>
+Personal Loan Screen Started...<br/>
+Assert - Personal Loan Verified<br/>
+Personal Loan Assertion Passed<br/>
+SM-G615F - 42007b03e08954c5 TEST [Carina Appium POC - personalLoanEarlySalary1ToastMessage] FAILED at [11:49:40 2020-06-03] - expected [Please enter valid number] but found [Please enter valid pincode]
+
+org.testng.Assert.fail(Assert.java:97)
+org.testng.Assert.assertEqualsImpl(Assert.java:136)
+org.testng.Assert.assertEquals(Assert.java:118)
+org.testng.Assert.assertEquals(Assert.java:575)
+org.testng.Assert.assertEquals(Assert.java:585)
+com.demo.tests.PersonalLoanFlow.personalLoanEarlySalary1ToastMessage(PersonalLoanFlow.java:47)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
+org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
+java.util.concurrent.FutureTask.run(FutureTask.java:266)
+java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+java.util.concurrent.FutureTask.run(FutureTask.java:266)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+java.lang.Thread.run(Thread.java:748)<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [Please enter valid number] but found [Please enter valid pincode]
+	at com.demo.tests.PersonalLoanFlow.personalLoanEarlySalary1ToastMessage(PersonalLoanFlow.java:47)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace487315211", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace487315211'><pre>java.lang.AssertionError: expected [Please enter valid number] but found [Please enter valid pincode]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at org.testng.Assert.assertEquals(Assert.java:585)
+	at com.demo.tests.PersonalLoanFlow.personalLoanEarlySalary1ToastMessage(PersonalLoanFlow.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>87</td>
+<td>com.demo.tests.PersonalLoanFlow@5a39e554</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.demo.tests.PersonalLoanFlow.personalLoanEarlySalary2PositiveFlow()'><b>personalLoanEarlySalary2PositiveFlow</b><br>Test class: com.demo.tests.PersonalLoanFlow<br>Test method: Personal Loan - Early Salary Positive Flow<br>Parameters: 60000, 3, 60000, 31-12-1990, 400001, No, Father, Mother, Male, Single, Graduate Degree, Testing Institute, Company, Software Engineer, Area, Mumbai, 400003, 3, 10, AAAPL1001A, Building, Street, Landmark, Navi Mumbai, Maharashtra, 400002, Rented<br/>
+<a href="#Output-939039368" onClick='toggleBox("Output-939039368", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-939039368" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-939039368">
+Personal Loan - Early Salary Test Started...<br/>
+Home Screen Started...<br/>
+Assert - Borrow Verified<br/>
+Home Screen Finished...<br/>
+Personal Loan Screen Started...<br/>
+Assert - Personal Loan Verified<br/>
+Personal Loan Assertion Passed<br/>
+Personal Loan Screen Finished...<br/>
+Link Social Profile Screen Started...<br/>
+Assert - Know What We Share Verified<br/>
+Link Social Profile Screen Finished...<br/>
+Know What We Share Assertion Passed<br/>
+Loan Application Form 1 Screen Started...<br/>
+Assert - Share your details - easy&simple Verified<br/>
+Loan Application Form 1 Screen Finished...<br/>
+Loan Application Form 2 Screen Started...<br/>
+Loan Application Form 2 Screen Finished...<br/>
+Loan Application Form 3 Screen Started...<br/>
+Loan Application Form 3 Screen Finished...<br/>
+Assert - CongratulationsFirst! Verified<br/>
+Personal Loan - Early Salary Test Finished...<br/>
+</div>
+</td>
+<td></td>
+<td>218</td>
+<td>com.demo.tests.PersonalLoanFlow@5a39e554</td></tr>
+</table><p>
+</body>
+</html>

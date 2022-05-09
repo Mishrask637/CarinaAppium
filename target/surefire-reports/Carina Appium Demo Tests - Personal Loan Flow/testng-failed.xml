@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Carina Appium Demo Tests - Personal Loan Flow]" parallel="tests" data-provider-thread-count="1">
+  <parameter name="jenkinsJobName" value="Mobile-Android-Demo-Test"/>
+  <parameter name="jenkinsEmail" value="demo@qaprosoft.com"/>
+  <parameter name="jenkinsEnvironments" value="DEMO"/>
+  <parameter name="jenkinsJobCreation" value="true"/>
+  <parameter name="jenkinsJobType" value="android"/>
+  <parameter name="jenkinsMobileDefaultPool" value="ANY"/>
+  <parameter name="jenkinsJobExecutionMode" value="continue"/>
+  <parameter name="suiteOwner" value="qpsdemo"/>
+  <parameter name="jenkinsPipelineEnvironments" value="DEMO"/>
+  <parameter name="auto_screenshot" value="false"/>
+  <parameter name="jenkinsDefaultThreadCount" value="1"/>
+  <parameter name="jenkinsJobExecutionOrder" value="1"/>
+  <test thread-count="1" verbose="0" name="Carina Appium POC(failed)" parallel="tests">
+    <classes>
+      <class name="com.demo.tests.PersonalLoanFlow">
+        <methods>
+          <include name="personalLoanEarlySalary1ToastMessage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.demo.tests.PersonalLoanFlow -->
+    </classes>
+  </test> <!-- Carina Appium POC(failed) -->
+</suite> <!-- Failed suite [Carina Appium Demo Tests - Personal Loan Flow] -->

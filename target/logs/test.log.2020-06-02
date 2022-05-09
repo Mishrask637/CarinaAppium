@@ -1,0 +1,374 @@
+2020-06-02 15:00:16 CarinaListener [INFO] 
+============= Test configuration =============
+url={must_override}
+env=DEMO
+env_arg_resolver=com.qaprosoft.carina.core.foundation.utils.DefaultEnvArgResolver
+browser=
+browser_version=
+browser_language=
+selenium_host=http://127.0.0.1:4723/wd/hub
+driver_event_listeners=
+max_driver_count=3
+custom_capabilities=
+chrome_args=
+chrome_experimental_opts=
+chrome_mobile_emulation_opts=
+firefox_args=
+firefox_preferences=
+app_version=
+proxy_host=
+proxy_port=
+proxy_protocols=http,https,ftp
+no_proxy=
+browsermob_proxy=false
+browsermob_host=
+browsermob_port=0
+browsermob_ports_range=
+browsermob_disabled_mitm=false
+proxy_set_to_system=false
+report_url=
+email_list=
+failure_email_list=
+track_known_issues=false
+auto_screenshot=false
+explicit_timeout=30
+auto_download=false
+auto_download_apps=
+auto_download_folder=
+custom_artifacts_folder=
+retry_interval=5
+project_report_directory=./reports/qa
+max_screen_history=100
+max_log_file_size=150
+result_sorting=true
+big_screen_width=2000
+big_screen_height=2500
+small_screen_width=90
+small_screen_height=60
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+enable_l10n=true
+l10n_encoding=ISO-8859-1
+locale=en_US
+enable_i18n=true
+language=en_US
+thread_count=1
+data_provider_thread_count=1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+artifacts_expiration_seconds=2592000
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+suite_name=
+jira_updater=com.qaprosoft.carina.core.foundation.jira.DefaultJiraUpdater
+jira_url=
+jira_user=
+jira_password=
+jira_suite_id=
+jira_project=
+jira_project_short=
+jira_create_new_ticket=false
+test_naming_pattern={method_name}
+testrail_run_name=
+testrail_milestone=
+testrail_assignee=
+qtest_cycle_name=DailyAutomation
+qtest_suite_name=
+s3_bucket_name=
+access_key_id=
+secret_key=
+s3_use_presign_url=false
+s3_local_storage=.
+appcenter_token=
+appcenter_local_storage=.
+add_new_localization=false
+add_new_localization_encoding=utf-8
+add_new_localization_path=
+add_new_localization_property_name=new_custom_messages_
+tls_keysecure_location=
+health_check_class=
+health_check_methods=
+uninstall_related_apps=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+android_screen_record_size=
+android_screen_record_bitrate=1000000
+android_enable_bug_report=true
+ios_screen_record_quality=MEDIUM
+ios_screen_record_codec=libx264
+ios_screen_record_fps=10
+screen_record_duration=180
+video_scale=-2:720
+ignore_ssl=false
+test_run_rules=
+hub_mode=selenium
+selenium_host=http://127.0.0.1:4723/wd/hub
+
+------------- Driver capabilities -----------
+capabilities.deviceName=Galaxy J5 Prime
+capabilities.appPackage=com.realmepay.payments
+capabilities.noReset=true
+capabilities.appActivity=com.realmepay.payments.ui.splash.RealmeSplashScreen
+capabilities.automationName=uiautomator2
+capabilities.newCommandTimeout=300
+capabilities.platformName=ANDROID
+capabilities.deviceType=phone
+capabilities.udid=42007b03e08954c5
+capabilities.autoGrantPermissions=true
+================================================
+
+2020-06-02 15:00:17 CarinaListener [INFO] CARINA_CORE_VERSION: 6.4.35
+2020-06-02 15:00:21 Messager [INFO]  TEST [Carina Appium POC - personalLoanEarlySalary1ToastMessage] STARTED at [15:00:21 2020-06-02]
+2020-06-02 15:01:24 DriverListener [INFO] PASS: element 'personalLoanBtn' is clicked.
+2020-06-02 15:01:33 DriverListener [INFO] PASS: element 'salariedTab' is clicked.
+2020-06-02 15:01:35 DriverListener [INFO] PASS: keys cleared in element 'loanAmountEntryField'.
+2020-06-02 15:01:36 DriverListener [INFO] PASS: keys '75000' are sent to element 'loanAmountEntryField'.
+2020-06-02 15:01:37 DriverListener [INFO] PASS: keys cleared in element 'tenureMonthsEntryField'.
+2020-06-02 15:01:38 DriverListener [INFO] PASS: keys '12' are sent to element 'tenureMonthsEntryField'.
+2020-06-02 15:01:39 DriverListener [INFO] PASS: keys cleared in element 'monthlyIncomeEntryField'.
+2020-06-02 15:01:41 DriverListener [INFO] PASS: keys '35000' are sent to element 'monthlyIncomeEntryField'.
+2020-06-02 15:01:41 DriverHelper [INFO] 15:01:41.443   Calender Start Time
+2020-06-02 15:01:42 DriverListener [INFO] PASS: element 'birthDateEntryField' is clicked.
+2020-06-02 15:01:44 DriverListener [INFO] PASS: element 'selectYear' is clicked.
+2020-06-02 15:02:05 DriverListener [INFO] PASS: element 'calenderOkBtn' is clicked.
+2020-06-02 15:02:05 DriverHelper [INFO] 15:02:05.568   Calender End Time
+2020-06-02 15:02:11 DriverListener [INFO] PASS: keys cleared in element 'pinCodeEntryField'.
+2020-06-02 15:02:12 DriverListener [INFO] PASS: keys '40000' are sent to element 'pinCodeEntryField'.
+2020-06-02 15:02:13 DriverListener [INFO] PASS: element 'noRadioBtn' is clicked.
+2020-06-02 15:02:14 DriverListener [INFO] PASS: element 'checkBox' is clicked.
+2020-06-02 15:02:15 DriverListener [INFO] PASS: element 'nextBtn' is clicked.
+2020-06-02 15:02:16 Messager [INFO] SM-G615F - 42007b03e08954c5 TEST [Carina Appium POC - personalLoanEarlySalary1ToastMessage] PASSED at [15:02:16 2020-06-02]
+2020-06-02 15:02:18 IDriverPool [ERROR] Unrecorgnized error durig driver log populating!
+org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Potentially insecure feature 'get_server_logs' has not been enabled. If you want to enable this feature and accept the security ramifications, please do so by following the documented instructions at https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/security.md
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QKNBK629', ip: '192.168.43.169', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.realmepay.payments.ui.s..., appPackage: com.realmepay.payments, autoGrantPermissions: true, automationName: uiautomator2, carinaTestRunId: be0cf217-b5c7-44a8-ba1e-a89..., databaseEnabled: false, desired: {appActivity: com.realmepay.payments.ui.s..., appPackage: com.realmepay.payments, autoGrantPermissions: true, automationName: uiautomator2, carinaTestRunId: be0cf217-b5c7-44a8-ba1e-a89..., deviceName: Galaxy J5 Prime, deviceType: phone, language: en, locale: US, newCommandTimeout: 300, noReset: true, platformName: android, udid: 42007b03e08954c5}, deviceApiLevel: 27, deviceManufacturer: samsung, deviceModel: SM-G615F, deviceName: 42007b03e08954c5, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceType: phone, deviceUDID: 42007b03e08954c5, javascriptEnabled: true, language: en, locale: US, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 300, noReset: true, pixelRatio: 2.625, platform: LINUX, platformName: ANDROID, platformVersion: 8.1.0, statBarHeight: 63, takesScreenshot: true, udid: 42007b03e08954c5, viewportRect: {height: 1857, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 8c9d16ce-4539-48f8-84f7-629c14827434
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at com.qaprosoft.carina.core.foundation.webdriver.listener.EventFiringAppiumCommandExecutor.execute(EventFiringAppiumCommandExecutor.java:151)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteExecuteMethod.execute(RemoteExecuteMethod.java:35)
+	at org.openqa.selenium.remote.RemoteLogs.getRemoteEntries(RemoteLogs.java:81)
+	at org.openqa.selenium.remote.RemoteLogs.get(RemoteLogs.java:77)
+	at com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.getDriverLogs(IDriverPool.java:448)
+	at com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.quitDriver(IDriverPool.java:338)
+	at com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.quitDrivers(IDriverPool.java:300)
+	at com.qaprosoft.carina.core.foundation.listeners.CarinaListener.onTestFinish(CarinaListener.java:324)
+	at com.qaprosoft.carina.core.foundation.listeners.CarinaListener.onTestSuccess(CarinaListener.java:271)
+	at com.nordstrom.automation.testng.ListenerChain.onTestSuccess(ListenerChain.java:379)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:70)
+	at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:210)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:638)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-02 15:02:18 Timer [ERROR] Operation already started: get_logs
+2020-06-02 15:02:19 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2020-06-02 15:02:19 Messager [INFO] RESULT #1: TEST [Carina Appium POC - personalLoanEarlySalary1ToastMessage] PASS [log=file://D:\CarinaAppiumPOC\.\reports\qa\1591090216812/aebda6cf-5a89-4d94-aa45-51c6b492ab66/test.log]
+2020-06-02 15:03:56 CarinaListener [INFO] 
+============= Test configuration =============
+url={must_override}
+env=DEMO
+env_arg_resolver=com.qaprosoft.carina.core.foundation.utils.DefaultEnvArgResolver
+browser=
+browser_version=
+browser_language=
+selenium_host=http://127.0.0.1:4723/wd/hub
+driver_event_listeners=
+max_driver_count=3
+custom_capabilities=
+chrome_args=
+chrome_experimental_opts=
+chrome_mobile_emulation_opts=
+firefox_args=
+firefox_preferences=
+app_version=
+proxy_host=
+proxy_port=
+proxy_protocols=http,https,ftp
+no_proxy=
+browsermob_proxy=false
+browsermob_host=
+browsermob_port=0
+browsermob_ports_range=
+browsermob_disabled_mitm=false
+proxy_set_to_system=false
+report_url=
+email_list=
+failure_email_list=
+track_known_issues=false
+auto_screenshot=false
+explicit_timeout=30
+auto_download=false
+auto_download_apps=
+auto_download_folder=
+custom_artifacts_folder=
+retry_interval=5
+project_report_directory=./reports/qa
+max_screen_history=100
+max_log_file_size=150
+result_sorting=true
+big_screen_width=2000
+big_screen_height=2500
+small_screen_width=90
+small_screen_height=60
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+enable_l10n=true
+l10n_encoding=ISO-8859-1
+locale=en_US
+enable_i18n=true
+language=en_US
+thread_count=1
+data_provider_thread_count=1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+artifacts_expiration_seconds=2592000
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+suite_name=
+jira_updater=com.qaprosoft.carina.core.foundation.jira.DefaultJiraUpdater
+jira_url=
+jira_user=
+jira_password=
+jira_suite_id=
+jira_project=
+jira_project_short=
+jira_create_new_ticket=false
+test_naming_pattern={method_name}
+testrail_run_name=
+testrail_milestone=
+testrail_assignee=
+qtest_cycle_name=DailyAutomation
+qtest_suite_name=
+s3_bucket_name=
+access_key_id=
+secret_key=
+s3_use_presign_url=false
+s3_local_storage=.
+appcenter_token=
+appcenter_local_storage=.
+add_new_localization=false
+add_new_localization_encoding=utf-8
+add_new_localization_path=
+add_new_localization_property_name=new_custom_messages_
+tls_keysecure_location=
+health_check_class=
+health_check_methods=
+uninstall_related_apps=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+android_screen_record_size=
+android_screen_record_bitrate=1000000
+android_enable_bug_report=true
+ios_screen_record_quality=MEDIUM
+ios_screen_record_codec=libx264
+ios_screen_record_fps=10
+screen_record_duration=180
+video_scale=-2:720
+ignore_ssl=false
+test_run_rules=
+hub_mode=selenium
+selenium_host=http://127.0.0.1:4723/wd/hub
+
+------------- Driver capabilities -----------
+capabilities.deviceName=Galaxy J5 Prime
+capabilities.appPackage=com.realmepay.payments
+capabilities.noReset=true
+capabilities.appActivity=com.realmepay.payments.ui.splash.RealmeSplashScreen
+capabilities.automationName=uiautomator2
+capabilities.newCommandTimeout=300
+capabilities.platformName=ANDROID
+capabilities.deviceType=phone
+capabilities.udid=42007b03e08954c5
+capabilities.autoGrantPermissions=true
+================================================
+
+2020-06-02 15:03:57 CarinaListener [INFO] CARINA_CORE_VERSION: 6.4.35
+2020-06-02 15:04:00 Messager [INFO]  TEST [Carina Appium POC - personalLoanEarlySalary1ToastMessage] STARTED at [15:04:00 2020-06-02]
+2020-06-02 15:04:35 DriverListener [INFO] PASS: element 'personalLoanBtn' is clicked.
+2020-06-02 15:04:43 DriverListener [INFO] PASS: element 'salariedTab' is clicked.
+2020-06-02 15:04:44 DriverListener [INFO] PASS: keys cleared in element 'loanAmountEntryField'.
+2020-06-02 15:04:45 DriverListener [INFO] PASS: keys '75000' are sent to element 'loanAmountEntryField'.
+2020-06-02 15:04:46 DriverListener [INFO] PASS: keys cleared in element 'tenureMonthsEntryField'.
+2020-06-02 15:04:48 DriverListener [INFO] PASS: keys '12' are sent to element 'tenureMonthsEntryField'.
+2020-06-02 15:04:48 DriverListener [INFO] PASS: keys cleared in element 'monthlyIncomeEntryField'.
+2020-06-02 15:04:50 DriverListener [INFO] PASS: keys '35000' are sent to element 'monthlyIncomeEntryField'.
+2020-06-02 15:04:50 DriverHelper [INFO] 15:04:50.730   Calender Start Time
+2020-06-02 15:04:51 DriverListener [INFO] PASS: element 'birthDateEntryField' is clicked.
+2020-06-02 15:04:53 DriverListener [INFO] PASS: element 'selectYear' is clicked.
+2020-06-02 15:05:15 DriverListener [INFO] PASS: element 'calenderOkBtn' is clicked.
+2020-06-02 15:05:15 DriverHelper [INFO] 15:05:15.953   Calender End Time
+2020-06-02 15:05:21 DriverListener [INFO] PASS: keys cleared in element 'pinCodeEntryField'.
+2020-06-02 15:05:23 DriverListener [INFO] PASS: keys '40000' are sent to element 'pinCodeEntryField'.
+2020-06-02 15:05:23 DriverListener [INFO] PASS: element 'noRadioBtn' is clicked.
+2020-06-02 15:05:24 DriverListener [INFO] PASS: element 'checkBox' is clicked.
+2020-06-02 15:05:25 DriverListener [INFO] PASS: element 'nextBtn' is clicked.
+2020-06-02 15:05:26 Messager [INFO] SM-G615F - 42007b03e08954c5 TEST [Carina Appium POC - personalLoanEarlySalary1ToastMessage] PASSED at [15:05:26 2020-06-02]
+2020-06-02 15:05:28 IDriverPool [ERROR] Unrecorgnized error durig driver log populating!
+org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Potentially insecure feature 'get_server_logs' has not been enabled. If you want to enable this feature and accept the security ramifications, please do so by following the documented instructions at https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/security.md
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QKNBK629', ip: '192.168.43.169', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.realmepay.payments.ui.s..., appPackage: com.realmepay.payments, autoGrantPermissions: true, automationName: uiautomator2, carinaTestRunId: 6aaafe58-a454-4264-8304-a67..., databaseEnabled: false, desired: {appActivity: com.realmepay.payments.ui.s..., appPackage: com.realmepay.payments, autoGrantPermissions: true, automationName: uiautomator2, carinaTestRunId: 6aaafe58-a454-4264-8304-a67..., deviceName: Galaxy J5 Prime, deviceType: phone, language: en, locale: US, newCommandTimeout: 300, noReset: true, platformName: android, udid: 42007b03e08954c5}, deviceApiLevel: 27, deviceManufacturer: samsung, deviceModel: SM-G615F, deviceName: 42007b03e08954c5, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceType: phone, deviceUDID: 42007b03e08954c5, javascriptEnabled: true, language: en, locale: US, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 300, noReset: true, pixelRatio: 2.625, platform: LINUX, platformName: ANDROID, platformVersion: 8.1.0, statBarHeight: 63, takesScreenshot: true, udid: 42007b03e08954c5, viewportRect: {height: 1857, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: efc59d6a-8fec-4d3f-b7bc-520de3acf9e4
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at com.qaprosoft.carina.core.foundation.webdriver.listener.EventFiringAppiumCommandExecutor.execute(EventFiringAppiumCommandExecutor.java:151)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteExecuteMethod.execute(RemoteExecuteMethod.java:35)
+	at org.openqa.selenium.remote.RemoteLogs.getRemoteEntries(RemoteLogs.java:81)
+	at org.openqa.selenium.remote.RemoteLogs.get(RemoteLogs.java:77)
+	at com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.getDriverLogs(IDriverPool.java:448)
+	at com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.quitDriver(IDriverPool.java:338)
+	at com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.quitDrivers(IDriverPool.java:300)
+	at com.qaprosoft.carina.core.foundation.listeners.CarinaListener.onTestFinish(CarinaListener.java:324)
+	at com.qaprosoft.carina.core.foundation.listeners.CarinaListener.onTestSuccess(CarinaListener.java:271)
+	at com.nordstrom.automation.testng.ListenerChain.onTestSuccess(ListenerChain.java:379)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:70)
+	at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:210)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:638)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-02 15:05:28 Timer [ERROR] Operation already started: get_logs
+2020-06-02 15:05:29 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2020-06-02 15:05:29 Messager [INFO] RESULT #1: TEST [Carina Appium POC - personalLoanEarlySalary1ToastMessage] PASS [log=file://D:\CarinaAppiumPOC\.\reports\qa\1591090436062/e4456f1a-b772-472d-bde2-c8f91307a840/test.log]

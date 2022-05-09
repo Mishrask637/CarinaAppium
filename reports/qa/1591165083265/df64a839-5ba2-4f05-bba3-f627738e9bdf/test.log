@@ -1,0 +1,70 @@
+[2020-06-03 11:49:42] [IMessager.java] [30] [INFO]  TEST [Carina Appium POC - personalLoanEarlySalary2PositiveFlow] STARTED at [11:49:42 2020-06-03]
+[2020-06-03 11:50:11] [DriverListener.java] [30] [INFO] PASS: element 'personalLoanBtn' is clicked.
+[2020-06-03 11:50:19] [DriverListener.java] [30] [INFO] PASS: element 'salariedTab' is clicked.
+[2020-06-03 11:50:20] [DriverListener.java] [30] [INFO] PASS: keys cleared in element 'loanAmountEntryField'.
+[2020-06-03 11:50:21] [DriverListener.java] [30] [INFO] PASS: keys '60000' are sent to element 'loanAmountEntryField'.
+[2020-06-03 11:50:22] [DriverListener.java] [30] [INFO] PASS: keys cleared in element 'tenureMonthsEntryField'.
+[2020-06-03 11:50:23] [DriverListener.java] [30] [INFO] PASS: keys '3' are sent to element 'tenureMonthsEntryField'.
+[2020-06-03 11:50:24] [DriverListener.java] [30] [INFO] PASS: keys cleared in element 'monthlyIncomeEntryField'.
+[2020-06-03 11:50:26] [DriverListener.java] [30] [INFO] PASS: keys '60000' are sent to element 'monthlyIncomeEntryField'.
+[2020-06-03 11:50:26] [PersonalLoan.java] [30] [INFO] 11:50:26.598   Calender Start Time
+[2020-06-03 11:50:27] [DriverListener.java] [30] [INFO] PASS: element 'birthDateEntryField' is clicked.
+[2020-06-03 11:50:29] [DriverListener.java] [30] [INFO] PASS: element 'selectYear' is clicked.
+[2020-06-03 11:50:51] [DriverListener.java] [30] [INFO] PASS: element 'calenderOkBtn' is clicked.
+[2020-06-03 11:50:51] [PersonalLoan.java] [30] [INFO] 11:50:51.260   Calender End Time
+[2020-06-03 11:50:57] [DriverListener.java] [30] [INFO] PASS: keys cleared in element 'pinCodeEntryField'.
+[2020-06-03 11:50:58] [DriverListener.java] [30] [INFO] PASS: keys '400001' are sent to element 'pinCodeEntryField'.
+[2020-06-03 11:50:59] [DriverListener.java] [30] [INFO] PASS: element 'noRadioBtn' is clicked.
+[2020-06-03 11:51:00] [DriverListener.java] [30] [INFO] PASS: element 'checkBox' is clicked.
+[2020-06-03 11:51:01] [DriverListener.java] [30] [INFO] PASS: element 'nextBtn' is clicked.
+[2020-06-03 11:51:02] [DriverListener.java] [30] [INFO] PASS: element 'confirmBtn' is clicked.
+[2020-06-03 11:51:23] [DriverListener.java] [30] [INFO] PASS: element 'proceedBtn' is clicked.
+[2020-06-03 11:51:25] [DriverListener.java] [30] [INFO] PASS: element 'googleIcon' is clicked.
+[2020-06-03 11:51:30] [DriverListener.java] [30] [INFO] PASS: element 'selectGoogleAccount' is clicked.
+[2020-06-03 11:51:55] [DriverListener.java] [30] [INFO] PASS: keys cleared in element 'fatherNameEntryField'.
+[2020-06-03 11:51:56] [DriverListener.java] [30] [INFO] PASS: keys 'Father' are sent to element 'fatherNameEntryField'.
+[2020-06-03 11:51:57] [DriverListener.java] [30] [INFO] PASS: keys cleared in element 'motherNameEntryField'.
+[2020-06-03 11:51:58] [DriverListener.java] [30] [INFO] PASS: keys 'Mother' are sent to element 'motherNameEntryField'.
+[2020-06-03 11:51:59] [DriverListener.java] [30] [INFO] PASS: element 'maleRadioBtn' is clicked.
+[2020-06-03 11:52:03] [DriverListener.java] [30] [INFO] PASS: element 'selectMaritalStatusDropdown' is clicked.
+[2020-06-03 11:52:05] [DriverListener.java] [30] [INFO] Element clicked
+[2020-06-03 11:52:05] [DriverListener.java] [30] [INFO] PASS: element 'highestEducationDropdown' is clicked.
+[2020-06-03 11:52:08] [DriverListener.java] [30] [INFO] Element clicked
+[2020-06-03 11:52:08] [DriverListener.java] [30] [INFO] PASS: keys cleared in element 'instituteNameEntryField'.
+[2020-06-03 11:52:09] [DriverListener.java] [30] [INFO] PASS: keys 'Testing Institute' are sent to element 'instituteNameEntryField'.
+[2020-06-03 11:52:10] [DriverListener.java] [30] [INFO] PASS: element 'personalProfileProceedBtn' is clicked.
+[2020-06-03 11:52:21] [DriverListener.java] [30] [INFO] PASS: keys cleared in element 'companyNameEntryField'.
+[2020-06-03 11:52:23] [DriverListener.java] [30] [INFO] PASS: keys 'Company' are sent to element 'companyNameEntryField'.
+[2020-06-03 11:52:23] [DriverListener.java] [30] [INFO] PASS: keys cleared in element 'designationEntryField'.
+[2020-06-03 11:52:24] [DriverListener.java] [30] [INFO] PASS: keys 'Software Engineer' are sent to element 'designationEntryField'.
+[2020-06-03 11:52:25] [DriverListener.java] [30] [INFO] PASS: keys cleared in element 'officeAreaEntryField'.
+[2020-06-03 11:52:26] [DriverListener.java] [30] [INFO] PASS: keys 'Area' are sent to element 'officeAreaEntryField'.
+[2020-06-03 11:52:27] [DriverListener.java] [30] [INFO] PASS: keys cleared in element 'officeCityEntryField'.
+[2020-06-03 11:52:27] [DriverListener.java] [30] [INFO] PASS: keys 'Mumbai' are sent to element 'officeCityEntryField'.
+[2020-06-03 11:52:28] [DriverListener.java] [30] [INFO] PASS: keys cleared in element 'officePincodeEntryField'.
+[2020-06-03 11:52:29] [DriverListener.java] [30] [INFO] PASS: keys '400003' are sent to element 'officePincodeEntryField'.
+[2020-06-03 11:52:33] [DriverListener.java] [30] [INFO] PASS: element 'totalExperienceInYearsDropdown' is clicked.
+[2020-06-03 11:52:35] [DriverListener.java] [30] [INFO] Element clicked
+[2020-06-03 11:52:36] [DriverListener.java] [30] [INFO] PASS: element 'totalExperienceInMonthsDropdown' is clicked.
+[2020-06-03 11:52:38] [DriverListener.java] [30] [INFO] Element clicked
+[2020-06-03 11:52:39] [DriverListener.java] [30] [INFO] PASS: keys cleared in element 'panNumberEntryField'.
+[2020-06-03 11:52:40] [DriverListener.java] [30] [INFO] PASS: keys 'AAAPL1001A' are sent to element 'panNumberEntryField'.
+[2020-06-03 11:52:40] [DriverListener.java] [30] [INFO] PASS: element 'professionalProfileProceedBtn' is clicked.
+[2020-06-03 11:52:41] [DriverListener.java] [30] [INFO] PASS: element 'yesBtn' is clicked.
+[2020-06-03 11:52:48] [DriverListener.java] [30] [INFO] PASS: keys cleared in element 'buildingNameEntryField'.
+[2020-06-03 11:52:49] [DriverListener.java] [30] [INFO] PASS: keys 'Building' are sent to element 'buildingNameEntryField'.
+[2020-06-03 11:52:50] [DriverListener.java] [30] [INFO] PASS: keys cleared in element 'streetNameEntryField'.
+[2020-06-03 11:52:51] [DriverListener.java] [30] [INFO] PASS: keys 'Street' are sent to element 'streetNameEntryField'.
+[2020-06-03 11:52:52] [DriverListener.java] [30] [INFO] PASS: keys cleared in element 'landmarkEntryField'.
+[2020-06-03 11:52:53] [DriverListener.java] [30] [INFO] PASS: keys 'Landmark' are sent to element 'landmarkEntryField'.
+[2020-06-03 11:52:53] [DriverListener.java] [30] [INFO] PASS: keys cleared in element 'cityEntryField'.
+[2020-06-03 11:52:54] [DriverListener.java] [30] [INFO] PASS: keys 'Navi Mumbai' are sent to element 'cityEntryField'.
+[2020-06-03 11:52:55] [DriverListener.java] [30] [INFO] PASS: keys cleared in element 'stateEntryField'.
+[2020-06-03 11:52:56] [DriverListener.java] [30] [INFO] PASS: keys 'Maharashtra' are sent to element 'stateEntryField'.
+[2020-06-03 11:53:00] [DriverListener.java] [30] [INFO] PASS: keys cleared in element 'residentialPincodeEntryField'.
+[2020-06-03 11:53:01] [DriverListener.java] [30] [INFO] PASS: keys '400002' are sent to element 'residentialPincodeEntryField'.
+[2020-06-03 11:53:02] [DriverListener.java] [30] [INFO] PASS: element 'residentialTypeEntryField' is clicked.
+[2020-06-03 11:53:04] [DriverListener.java] [30] [INFO] Element clicked
+[2020-06-03 11:53:04] [DriverListener.java] [30] [INFO] PASS: element 'checkBox' is clicked.
+[2020-06-03 11:53:05] [DriverListener.java] [30] [INFO] PASS: element 'currentAddressProceedBtn' is clicked.
+[2020-06-03 11:53:21] [IMessager.java] [30] [INFO] SM-G615F - 42007b03e08954c5 TEST [Carina Appium POC - personalLoanEarlySalary2PositiveFlow] PASSED at [11:53:21 2020-06-03]

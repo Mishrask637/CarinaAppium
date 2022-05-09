@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 324.502 s <<< FAILURE! - in TestSuite
+personalLoanEarlySalary1ToastMessage(com.demo.tests.PersonalLoanFlow)  Time elapsed: 85.833 s  <<< FAILURE!
+java.lang.AssertionError: expected [Please enter valid number] but found [Please enter valid pincode]
+	at com.demo.tests.PersonalLoanFlow.personalLoanEarlySalary1ToastMessage(PersonalLoanFlow.java:47)
+

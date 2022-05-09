@@ -1,0 +1,4 @@
+# Created at 2020-06-02T15:03:49.416
+Boot Manifest-JAR contains absolute paths in classpath 'D:\CarinaAppiumPOC\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+

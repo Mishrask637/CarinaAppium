@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">Default suite</th></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">1</td><td class="num">0</td><td class="num attn">1</td><td class="num">317,670</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.demo.tests.PersonalLoanFlow</td><td><a href="#m0">personalLoanEarlySalary1ToastMessage</a></td><td rowspan="1">1590914697095</td><td rowspan="1">91834</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.demo.tests.PersonalLoanFlow</td><td><a href="#m1">personalLoanEarlySalary2PositiveFlow</a></td><td rowspan="1">1590914790729</td><td rowspan="1">218166</td></tr></tbody>
+</table>
+<h2>Default test</h2><h3 id="m0">com.demo.tests.PersonalLoanFlow#personalLoanEarlySalary1ToastMessage</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th></tr><tr class="param stripe"><td>75000</td><td>12</td><td>35000</td><td>31-12-1990</td><td>40000</td><td>No</td><td>Please enter valid number</td></tr><tr><th colspan="7">Messages</th></tr><tr><td colspan="7"><div class="messages">Personal Loan - Early Salary Test Started...<br/>Home Screen Started...<br/>Assert - Borrow Verified<br/>Home Screen Finished...<br/>Personal Loan Screen Started...<br/>Assert - Personal Loan Verified<br/>Personal Loan Assertion Passed</div></td></tr><tr><th colspan="7">Exception</th></tr><tr><td colspan="7"><div class="stacktrace">java.lang.AssertionError: expected [Please enter valid number] but found [Please enter valid pincode]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.demo.tests.PersonalLoanFlow.personalLoanEarlySalary1ToastMessage(PersonalLoanFlow.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:71)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.demo.tests.PersonalLoanFlow#personalLoanEarlySalary2PositiveFlow</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th><th>Parameter #14</th><th>Parameter #15</th><th>Parameter #16</th><th>Parameter #17</th><th>Parameter #18</th><th>Parameter #19</th><th>Parameter #20</th><th>Parameter #21</th><th>Parameter #22</th><th>Parameter #23</th><th>Parameter #24</th><th>Parameter #25</th><th>Parameter #26</th><th>Parameter #27</th></tr><tr class="param stripe"><td>75000</td><td>12</td><td>35000</td><td>31-12-1990</td><td>400001</td><td>No</td><td>Father</td><td>Mother</td><td>Male</td><td>Single</td><td>Graduate Degree</td><td>Testing Institute</td><td>Company</td><td>Software Engineer</td><td>Area</td><td>Mumbai</td><td>400003</td><td>3</td><td>10</td><td>ASUPA1010A</td><td>Building</td><td>Street</td><td>Landmark</td><td>Navi Mumbai</td><td>Maharashtra</td><td>400002</td><td>Rented</td></tr><tr><th colspan="27">Messages</th></tr><tr><td colspan="27"><div class="messages">Personal Loan - Early Salary Test Started...<br/>Home Screen Started...<br/>Assert - Borrow Verified<br/>Home Screen Finished...<br/>Personal Loan Screen Started...<br/>Assert - Personal Loan Verified<br/>Personal Loan Assertion Passed<br/>Personal Loan Screen Finished...<br/>Link Social Profile Screen Started...<br/>Assert - Know What We Share Verified<br/>Link Social Profile Screen Finished...<br/>Know What We Share Assertion Passed<br/>Loan Application Form 1 Screen Started...<br/>Assert - Share your details - easy&simple Verified<br/>Loan Application Form 1 Screen Finished...<br/>Loan Application Form 2 Screen Started...<br/>Loan Application Form 2 Screen Finished...<br/>Loan Application Form 3 Screen Started...<br/>Loan Application Form 3 Screen Finished...<br/>Assert - CongratulationsFirst! Verified<br/>Personal Loan - Early Salary Test Finished...</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

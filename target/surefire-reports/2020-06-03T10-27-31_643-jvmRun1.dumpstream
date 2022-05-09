@@ -1,0 +1,97 @@
+# Created at 2020-06-03T10:28:24.752
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:390)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2020-06-03T10:28:25.372
+Unexpected IOException with stream: 2020-06-03 10:28:25 DriverListener [TestNG-PoolService-0-18] [INFO] [SM-G615F] PASS: element 'salariedTab' is clicked.
+
+
+# Created at 2020-06-03T10:28:26.833
+Unexpected IOException with stream: 2020-06-03 10:28:26 DriverListener [TestNG-PoolService-0-18] [INFO] [SM-G615F] PASS: keys cleared in element 'loanAmountEntryField'.
+
+
+# Created at 2020-06-03T10:28:29.758
+Unexpected IOException with stream: 2020-06-03 10:28:29 DriverListener [TestNG-PoolService-0-18] [INFO] [SM-G615F] PASS: keys '75000' are sent to element 'loanAmountEntryField'.
+
+
+# Created at 2020-06-03T10:29:01.627
+Unexpected IOException with stream: 2020-06-03 10:29:01 ExtendedWebElement [TestNG-PoolService-0-18] [ERROR] [SM-G615F] FAIL: type - waitCondition for element 'tenureMonthsEntryField (By.id: com.realmepay.payments:id/tenure_et)' not satisfied!
+
+
+# Created at 2020-06-03T10:29:01.996
+Unexpected IOException: 8,1,com.demo.tests.PersonalLoanFlow,personalLoanEarlySalary1ToastMessage(com.demo.tests.PersonalLoanFlow),null,Unable to detect element: tenureMonthsEntryField (By.id: com.realmepay.payments:id/tenure_et),null,Unable to detect element: tenureMonthsEntryField (By.id: com.realmepay.payments:id/tenure_et),PersonalLoanFlow.personalLoanEarlySalary1ToastMessage:45 \00BB NoSuchElement Unabl...,org.openqa.selenium.NoSuchElementException: Unable to detect element: tenureMonthsEntryField (By.id: com.realmepay.payments:id/tenure_et)\000A\0009at com.demo.tests.PersonalLoanFlow.personalLoanEarlySalary1ToastMessage(PersonalLoanFlow.java:45)\000ACaused by: org.openqa.selenium.NoSuchElementException: \000AAn element could not be located on the page using the given search parameters.\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'QKNBK629'\002C ip: '192.168.43.169'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_231'\000ADriver info: io.appium.java_client.android.AndroidDriver\000ACapabilities {appActivity: com.realmepay.payments.ui.s...\002C appPackage: com.realmepay.payments\002C autoGrantPermissions: true\002C automationName: uiautomator2\002C carinaTestRunId: c8de7d44-2d14-4e19-b207-f3f...\002C databaseEnabled: false\002C desired: {appActivity: com.realmepay.payments.ui.s...\002C appPackage: com.realmepay.payments\002C autoGrantPermissions: true\002C automationName: uiautomator2\002C carinaTestRunId: c8de7d44-2d14-4e19-b207-f3f...\002C deviceName: Galaxy J5 Prime\002C deviceType: phone\002C language: en\002C locale: US\002C newCommandTimeout: 300\002C noReset: true\002C platformName: android\002C udid: 42007b03e08954c5}\002C deviceApiLevel: 27\002C deviceManufacturer: samsung\002C deviceModel: SM-G615F\002C deviceName: 42007b03e08954c5\002C deviceScreenDensity: 420\002C deviceScreenSize: 1080x1920\002C deviceType: phone\002C deviceUDID: 42007b03e08954c5\002C javascriptEnabled: true\002C language: en\002C locale: US\002C locationContextEnabled: false\002C networkConnectionEnabled: true\002C newCommandTimeout: 300\002C noReset: true\002C pixelRatio: 2.625\002C platform: LINUX\002C platformName: ANDROID\002C platformVersion: 8.1.0\002C statBarHeight: 63\002C takesScreenshot: true\002C udid: 42007b03e08954c5\002C viewportRect: {height: 1857\002C left: 0\002C top: 63\002C width: 1080}\002C warnings: {}\002C webStorageEnabled: false}\000ASession ID: 0632bab0-6354-4f5b-8f59-d18ed86f5422\000A*** Element info: {Using=id\002C value=com.realmepay.payments:id/tenure_et}\000A\0009at com.demo.tests.PersonalLoanFlow.personalLoanEarlySalary1ToastMessage(PersonalLoanFlow.java:45)\000A
+
+
+# Created at 2020-06-03T10:29:02.466
+Unexpected IOException with stream: 2020-06-03 10:29:02 Screenshot [TestNG-PoolService-0-18] [ERROR] [SM-G615F] Unable to capture screenshot due to the WebDriverException!
+org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QKNBK629', ip: '192.168.43.169', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.realmepay.payments.ui.s..., appPackage: com.realmepay.payments, autoGrantPermissions: true, automationName: uiautomator2, carinaTestRunId: c8de7d44-2d14-4e19-b207-f3f..., databaseEnabled: false, desired: {appActivity: com.realmepay.payments.ui.s..., appPackage: com.realmepay.payments, autoGrantPermissions: true, automationName: uiautomator2, carinaTestRunId: c8de7d44-2d14-4e19-b207-f3f..., deviceName: Galaxy J5 Prime, deviceType: phone, language: en, locale: US, newCommandTimeout: 300, noReset: true, platformName: android, udid: 42007b03e08954c5}, deviceApiLevel: 27, deviceManufacturer: samsung, deviceModel: SM-G615F, deviceName: 42007b03e08954c5, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceType: phone, deviceUDID: 42007b03e08954c5, javascriptEnabled: true, language: en, locale: US, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 300, noReset: true, pixelRatio: 2.625, platform: LINUX, platformName: ANDROID, platformVersion: 8.1.0, statBarHeight: 63, takesScreenshot: true, udid: 42007b03e08954c5, viewportRect: {height: 1857, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 0632bab0-6354-4f5b-8f59-d18ed86f5422
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at com.qaprosoft.carina.core.foundation.webdriver.listener.EventFiringAppiumCommandExecutor.execute(EventFiringAppiumCommandExecutor.java:151)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:45)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at com.qaprosoft.carina.core.foundation.webdriver.Screenshot.takeFullScreenshot(Screenshot.java:526)
+	at com.qaprosoft.carina.core.foundation.webdriver.Screenshot.capture(Screenshot.java:438)
+	at com.qaprosoft.carina.core.foundation.webdriver.Screenshot.captureFailure(Screenshot.java:156)
+	at com.qaprosoft.carina.core.foundation.listeners.CarinaListener.takeScreenshot(CarinaListener.java:808)
+	at com.qaprosoft.carina.core.foundation.listeners.CarinaListener.onTestFailure(CarinaListener.java:277)
+	at com.nordstrom.automation.testng.ListenerChain.onTestFailure(ListenerChain.java:395)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:66)
+	at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:210)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:638)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2020-06-03T10:29:02.924
+Unexpected IOException with stream: 2020-06-03 10:29:02 Messager [TestNG-PoolService-0-18] [ERROR] [SM-G615F] SM-G615F - 42007b03e08954c5 TEST [Carina Appium POC - personalLoanEarlySalary1ToastMessage] FAILED at [10:29:02 2020-06-03] - Unable to detect element: tenureMonthsEntryField (By.id: com.realmepay.payments:id/tenure_et)
+
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.doAction(ExtendedWebElement.java:1397)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.type(ExtendedWebElement.java:661)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.type(ExtendedWebElement.java:649)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.type(ExtendedWebElement.java:639)
+com.demo.mobile.gui.pageobjects.PersonalLoan.enterLoanDetails(PersonalLoan.java:63)
+com.demo.tests.PersonalLoanFlow.personalLoanEarlySalary1ToastMessage(PersonalLoanFlow.java:45)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
+org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
+java.util.concurrent.FutureTask.run(FutureTask.java:266)
+java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+java.util.concurrent.FutureTask.run(FutureTask.java:266)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+java.lang.Thread.run(Thread.java:748)
+
+

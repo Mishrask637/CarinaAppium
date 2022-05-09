@@ -1,0 +1,17 @@
+com\demo\mobile\gui\page\LinkSocialProfileBasePage.class
+com\demo\mobile\gui\objectrepository\PageElements.class
+com\demo\mobile\gui\page\LoanApplicationForm2BasePage.class
+com\demo\mobile\generalFunctions\Test.class
+com\demo\mobile\generalFunctions\ImageExtract.class
+com\demo\mobile\gui\pageobjects\LoanApplicationForm2.class
+com\demo\mobile\gui\page\HomeScreenBasePage.class
+com\demo\mobile\gui\page\PersonalLoanBasePage.class
+com\demo\mobile\gui\page\LoanApplicationForm3BasePage.class
+com\demo\mobile\gui\pageobjects\LoanApplicationForm1.class
+com\demo\mobile\gui\pageobjects\PersonalLoan.class
+com\demo\mobile\generalFunctions\GeneralFunctions.class
+com\demo\mobile\gui\pageobjects\LinkSocialProfile.class
+com\demo\mobile\generalFunctions\captchaAutomation.class
+com\demo\mobile\gui\page\LoanApplicationForm1BasePage.class
+com\demo\mobile\gui\pageobjects\LoanApplicationForm3.class
+com\demo\mobile\gui\pageobjects\HomeScreen.class
